@@ -25,6 +25,7 @@ wget https://data.monarchinitiative.org/exomiser/data/2302_phenotype.zip -O 2302
 
 # unzip the database in prio_tools/exomizer/exomiser-cli-13.2.1/data and link the database in prio_tools/lirical/data
 
+mkdir prio_tools/exomizer/exomiser-cli-13.2.1/data
 mv 2302_hg19.zip prio_tools/exomizer/exomiser-cli-13.2.1/data
 mv 2302_phenotype.zip prio_tools/exomizer/exomiser-cli-13.2.1/data
 cd prio_tools/exomizer/exomiser-cli-13.2.1/data
@@ -35,6 +36,7 @@ rm 2302_phenotype.zip
 cd -
 cd prio_tools/lirical/
 java -jar LIRICAL.jar download --overwrite
+cd -
 ln -s $PWD/prio_tools/exomizer/exomiser-cli-13.2.1/data/2302_hg19 $PWD/prio_tools/lirical/2302_hg19
 
 # download hg19 reference and dictionary
