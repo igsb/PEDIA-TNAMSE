@@ -1,0 +1,2531 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>LIRICAL</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <style>
+@import url("https://www.jax.org/_res/css/modules/jax-base/p01-fonts.css");
+@import url("https://www.jax.org/_res/css/modules/fonts-extended.css");
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html, body, h1, li, a, article, aside, footer, header, main, nav, section {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	font-size:14px;
+}
+
+body {
+	font-family:"DIN Next", Helvetica, Arial, sans-serif;
+	line-height:1.25;
+	background-color:#e0e3ea;
+}
+
+
+body > header, nav, main, body > section, footer {
+max-width:1200px;
+margin-left:auto;
+margin-right:auto;
+}
+
+@media(min-width:1440px) {
+body > header, nav, main, body > section, footer {
+    width:83.3333%;
+    max-width:unset;
+    }
+}
+
+main, body > section {
+	margin-top:1.5rem;
+	margin-bottom:1.5rem;
+}
+
+body > header, body > section {
+	padding:2.1rem 2rem 1.6rem;
+}
+
+.fr {
+  float: right;
+}
+
+a[href] {
+	color:#05396b;
+}
+
+a[href]:hover {
+	color:#009ed0;
+}
+
+p {
+	padding:0;
+	margin:0.75rem 0;
+}
+
+h1 {
+	font-family:"DIN Next", Helvetica, Arial, sans-serif;
+	font-weight:700;
+	font-size:1.8rem;
+	line-height:1;
+}
+
+.center {
+  text-align: center;
+}
+/* Your really should address semantic issues with your markup that make selectors like this necessary */
+
+main > section > a[name="othergenes"] > h3,
+h2 {
+	font-family:"DIN Next", Helvetica, Arial, sans-serif;
+	font-weight:700;
+	font-size:1.5rem;
+	line-height:1;
+	margin:0 0 0.5rem;
+	padding:0;
+}
+
+h3 {
+	font-family:"DIN Next", Helvetica, Arial, sans-serif;
+	font-weight:700;
+	font-size:1.2rem;
+	line-height:1;
+	margin:0 0 0.5rem;
+	padding:0;
+}
+
+
+
+main ul, main ol {
+	margin:0.5rem 0 0.5rem 1.4rem;
+	padding:0;
+}
+
+main li {
+	margin:0.25rem 0;
+	padding:0;
+}
+
+.banner {
+	background-color: #05396b;
+	color: white;
+}
+
+nav {
+	background-color: #05396b;
+	margin-top:1px;
+	overflow:auto;
+	zoom:1;
+	padding:0;
+}
+
+nav a[href] {
+	color:white;
+	text-decoration:none;
+	color:rgba(255,255,255,0.8);
+	font-size:1.2rem;
+	display:block;
+	padding:1rem;
+	font-weight:400;
+}
+
+nav li:last-child a[href] {
+	padding-right:2.25rem;
+}
+
+nav a[href]:hover {
+	color:#05396b;
+	background-color:#04c3ff;
+}
+
+#navi ul {
+	display:table;
+	float:right;
+	margin:0;
+}
+
+#navi li {
+	display:block;
+	float:left;
+}
+
+main > section:first-child {
+	margin-top:1.5rem;
+	margin-bottom:1.5rem;
+	background-color:white;
+	padding:2.1rem 2rem 1.6rem;
+
+}
+
+main > section {
+	margin-top:1.5rem;
+	margin-bottom:0;
+	background-color:white;
+	padding: .5rem;
+
+}
+
+main > section > article {
+	padding: 1.5rem;
+	margin-top:1px;
+	background-color:white;
+}
+
+table {
+	border-collapse: collapse;
+	width:100%;
+	margin:0.5rem 0;
+}
+
+th, td {
+	text-align:left;
+	padding:0.4rem 0.5rem 0.25rem;
+}
+
+th {
+	background-color: #e0e3ea;
+	border-bottom:1px solid white;
+}
+
+table.redTable {
+	width:auto;
+	min-width:50%;
+}
+
+table.redTable td {
+	background-color:#f0f3fa;
+}
+
+table.posttest {
+	width:auto;
+	min-width:50%;
+	margin-left:auto;
+    margin-right:auto;
+    border: 1px solid black;
+}
+
+table.posttest td {
+    line-height: 40px;
+}
+
+table.posttest th  {font-size:1.5rem;}
+
+table.posttest tr:nth-child(even) {background: #F5F5F5}
+table.posttest tr:nth-child(odd) {background: #FFF}
+td.posttest {font-size:1.3rem;}
+
+table.minimalistBlack th,
+table.minimalistBlack td {
+	border:2px solid #e0e3ea;
+}
+
+table.minimalistBlack.red td {
+	background: red;
+}
+
+td.red {
+	background-color:#f0f3fa;
+}
+
+
+a[name="othergenes"] table.redTable {
+
+}
+
+a[name="othergenes"] table.redTable td.disease {
+	font-size:0.928rem;
+	padding-top:0.35rem;
+	padding-bottom:0.15rem;
+	text-transform: lowercase
+}
+
+a[name="othergenes"] table.redTable > tbody > tr:nth-child(even) > td {
+	background-color:white;
+}
+
+a[name="othergenes"] table.redTable > tbody > tr:hover > td {
+	background-color:#cceaff;
+}
+
+a[name="othergenes"] table.redTable a {
+	text-decoration: none;
+	display:block;
+}
+
+a[name="othergenes"] table.redTable a:hover {
+	text-decoration: underline;
+}
+
+a[name="othergenes"] table.redTable a::first-letter {
+	text-transform: uppercase;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+	background-color: #05396b;
+	color: white;
+	padding: 1rem 2rem;
+}
+
+/* The following links are in the SVG for the differentials */
+a.svg:link, a.svg:visited {
+  cursor: pointer;
+}
+
+a.svg text,
+text a.svg {
+  fill: blue; /* Even for text, SVG uses fill over color */
+  text-decoration: underline;
+}
+
+a.svg:hover, a.svg:active {
+  outline: dotted 1px blue;
+}
+
+.features-title {
+  background-color: #05396b;
+  color: white;
+}
+
+.features-title:nth-child(1) {
+  border-right: 2px solid white;
+}
+
+.features-data {
+  background-color: #e0e3ea;
+}
+
+.features-data:nth-child(1) {
+  border-right: 2px solid white;
+}
+.no-list-style {
+  list-style-type: none;
+}
+
+#tooltip {
+  background: #05396b;
+  border: 1px solid black;
+  border-radius: 0;
+  padding: 5px;
+  color: white;
+}
+
+.table-btn {
+    display: block;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #05396b;
+    width: fit-content;
+    color: white;
+    cursor: pointer;
+}
+
+#hide-other-genes-table, #other-genes-table {
+  display: none;
+}
+
+#hide-symbol-table, #symbol-table {
+  display: none;
+}
+
+</style>
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+<header class="banner">
+    <h1><font color="#FFDA1A">LIRICAL</font>: <font color="#FFDA1A">LI</font>kelihood <font color="#FFDA1A">R</font>atio
+    <font color="#FFDA1A">I</font>nterpretation of <font color="#FFDA1A">C</font>linical
+    <font color="#FFDA1A">A</font>bnorma<font color="#FFDA1A">L</font>ities</h1>
+</header>
+
+  <nav>
+      <div id="navi">
+          <ul>
+              <li><a href="#sample">Sample</a></li>
+              <li><a href="#diff">Differential diagnosis</a></li>
+              <li><a href="#othergenes">Remaining genes</a></li>
+              <li><a href="#explain">Definitions</a></li>
+              <li><a href="#about">About</a></li>
+          </ul>
+      </div>
+  </nav>
+  <main>
+    <section>
+      <a name="sample"></a>
+      <h2 class="center">Sample name: DEMRDUKB01139</h2>
+      <article>
+        <div class="row">
+          <div class="column features-title center">
+            <h3>Observed Phenotypic Features</h3>
+          </div>
+          <div class="column features-title center">
+              <h3>Excluded Phenotypic Features</h3>
+          </div>
+        </div>
+        <div class="row" style="background-color:#e0e3ea;">
+            <div class="column features-data">
+            <p>
+              <ul class="no-list-style">
+                  <li>Intellectual disability (<a href="https://hpo.jax.org/app/browse/term/HP:0001249">HP:0001249</a>)</li>
+              </ul>
+            </p>
+          </div>
+          <div class="column features-data">
+            <p>
+                  None provided
+            </p>
+          </div>
+        </div>
+
+            <p>Phenopacket file: lirical.json</p>
+        <p>LIRICAL analysis performed on 2023/10/06.</p>
+      </article>
+    </section>
+
+    <section>
+      <article>
+        <a name="diff"></a>
+        <h2>Top differential diagnoses</h2>
+        <p>6 diseases had an above threshold (&gt; 0.05) post-test probability.</p>
+        <div style="text-align:center;">
+            <table class="posttest">
+                <tr><th>Rank</th><th>Post-test probability</th><th>Disease</th><th>Phenotypes</th><th>Gene</th><th>LR (log<sub>10</sub>)</th></tr>
+                    <tr><td class="posttest">1</td><td><svg width="190" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<text x="10%" y="70%" dominant-baseline="middle" text-anchor="middle"  font-size="18">100%</text>
+<rect height="15" width="109" y=25 x="25%" stroke-width="0" stroke="#000000" fill="#00a087"/>
+</g>
+</svg>
+</td><td><a href="#diagnosis1">Intellectual developmental disorder, autosomal dominant (...)</a></td><td><svg width="26" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="10" y1="25" x2="20" y2="25"/>
+<rect height="3" width="10" y="22" x="10" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'Intellectual disability [HP:0001249]')"/>
+</g>
+</svg>
+</td><td class="posttest"><svg width="150" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="5" y1="25" x2="27" y2="25"/>
+<rect height="15" width="10" y="10" x="11" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'GRIN2B')"/>
+<text x="42" y="25" font-size="18px" font-style="italic">GRIN2B</text>
+</g>
+</svg>
+</td><td class="posttest">6.693</td></tr>
+                    <tr><td class="posttest">2</td><td><svg width="190" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<text x="10%" y="70%" dominant-baseline="middle" text-anchor="middle"  font-size="18">100%</text>
+<rect height="15" width="109" y=25 x="25%" stroke-width="0" stroke="#000000" fill="#00a087"/>
+</g>
+</svg>
+</td><td><a href="#diagnosis2">Developmental and epileptic encephalopathy 27</a></td><td><svg width="26" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="10" y1="25" x2="20" y2="25"/>
+<rect height="3" width="10" y="22" x="10" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'Intellectual disability [HP:0001249]')"/>
+</g>
+</svg>
+</td><td class="posttest"><svg width="150" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="5" y1="25" x2="27" y2="25"/>
+<rect height="15" width="10" y="10" x="11" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'GRIN2B')"/>
+<text x="42" y="25" font-size="18px" font-style="italic">GRIN2B</text>
+</g>
+</svg>
+</td><td class="posttest">6.693</td></tr>
+                    <tr><td class="posttest">3</td><td><svg width="190" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<text x="10%" y="70%" dominant-baseline="middle" text-anchor="middle"  font-size="18">97%</text>
+<rect height="15" width="107" y=25 x="25%" stroke-width="0" stroke="#000000" fill="#00a087"/>
+</g>
+</svg>
+</td><td><a href="#diagnosis3">Spinocerebellar ataxia 1</a></td><td><svg width="26" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="10" y1="25" x2="20" y2="25"/>
+<rect height="2" width="10" y="25" x="10" stroke-width="0" stroke="#000000" fill="#e64b35" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'Intellectual disability [HP:0001249]')"/>
+</g>
+</svg>
+</td><td class="posttest"><svg width="150" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="5" y1="25" x2="27" y2="25"/>
+<rect height="15" width="10" y="10" x="11" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'ATXN1')"/>
+<text x="42" y="25" font-size="18px" font-style="italic">ATXN1</text>
+</g>
+</svg>
+</td><td class="posttest">5.485</td></tr>
+                    <tr><td class="posttest">4</td><td><svg width="190" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<text x="10%" y="70%" dominant-baseline="middle" text-anchor="middle"  font-size="18">97%</text>
+<rect height="15" width="107" y=25 x="25%" stroke-width="0" stroke="#000000" fill="#00a087"/>
+</g>
+</svg>
+</td><td><a href="#diagnosis4">Lissencephaly 1</a></td><td><svg width="26" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="10" y1="25" x2="20" y2="25"/>
+<rect height="3" width="10" y="22" x="10" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'Intellectual disability [HP:0001249]')"/>
+</g>
+</svg>
+</td><td class="posttest"><svg width="150" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="5" y1="25" x2="27" y2="25"/>
+<rect height="11" width="10" y="14" x="11" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'PAFAH1B1')"/>
+<text x="42" y="25" font-size="18px" font-style="italic">PAFAH1B1</text>
+</g>
+</svg>
+</td><td class="posttest">5.474</td></tr>
+                    <tr><td class="posttest">5</td><td><svg width="190" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<text x="10%" y="70%" dominant-baseline="middle" text-anchor="middle"  font-size="18">24%</text>
+<rect height="15" width="26" y=25 x="25%" stroke-width="0" stroke="#000000" fill="#00a087"/>
+</g>
+</svg>
+</td><td><a href="#diagnosis5">Coenzyme Q10 deficiency, primary, 7</a></td><td><svg width="26" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="10" y1="25" x2="20" y2="25"/>
+<rect height="3" width="10" y="22" x="10" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'Intellectual disability [HP:0001249]')"/>
+</g>
+</svg>
+</td><td class="posttest"><svg width="150" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="5" y1="25" x2="27" y2="25"/>
+<rect height="6" width="10" y="19" x="11" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'COQ4')"/>
+<text x="42" y="25" font-size="18px" font-style="italic">COQ4</text>
+</g>
+</svg>
+</td><td class="posttest">3.415</td></tr>
+                    <tr><td class="posttest">6</td><td><svg width="190" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<text x="10%" y="70%" dominant-baseline="middle" text-anchor="middle"  font-size="18">8%</text>
+<rect height="15" width="8" y=25 x="25%" stroke-width="0" stroke="#000000" fill="#00a087"/>
+</g>
+</svg>
+</td><td><a href="#diagnosis6">Nijmegen breakage syndrome</a></td><td><svg width="26" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="10" y1="25" x2="20" y2="25"/>
+<rect height="3" width="10" y="22" x="10" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'Intellectual disability [HP:0001249]')"/>
+</g>
+</svg>
+</td><td class="posttest"><svg width="150" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="5" y1="25" x2="27" y2="25"/>
+<rect height="5" width="10" y="20" x="11" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'NBN')"/>
+<text x="42" y="25" font-size="18px" font-style="italic">NBN</text>
+</g>
+</svg>
+</td><td class="posttest">2.833</td></tr>
+                    <tr><td class="posttest">7</td><td><svg width="190" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<text x="10%" y="70%" dominant-baseline="middle" text-anchor="middle"  font-size="18">3%</text>
+<rect height="15" width="3" y=25 x="25%" stroke-width="0" stroke="#000000" fill="#00a087"/>
+</g>
+</svg>
+</td><td><a href="#diagnosis7">Intellectual developmental disorder with short stature  (...)</a></td><td><svg width="26" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="10" y1="25" x2="20" y2="25"/>
+<rect height="3" width="10" y="22" x="10" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'Intellectual disability [HP:0001249]')"/>
+</g>
+</svg>
+</td><td class="posttest"><svg width="150" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="5" y1="25" x2="27" y2="25"/>
+<rect height="4" width="10" y="21" x="11" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'WIPI2')"/>
+<text x="42" y="25" font-size="18px" font-style="italic">WIPI2</text>
+</g>
+</svg>
+</td><td class="posttest">2.402</td></tr>
+                    <tr><td class="posttest">8</td><td><svg width="190" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<text x="10%" y="70%" dominant-baseline="middle" text-anchor="middle"  font-size="18">1%</text>
+<rect height="15" width="1" y=25 x="25%" stroke-width="0" stroke="#000000" fill="#00a087"/>
+</g>
+</svg>
+</td><td><a href="#diagnosis8">Congenital hypotonia, epilepsy, developmental delay, an (...)</a></td><td><svg width="26" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="10" y1="25" x2="20" y2="25"/>
+<rect height="3" width="10" y="22" x="10" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'Intellectual disability [HP:0001249]')"/>
+</g>
+</svg>
+</td><td class="posttest"><svg width="150" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="5" y1="25" x2="27" y2="25"/>
+<rect height="3" width="10" y="22" x="11" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'ATN1')"/>
+<text x="42" y="25" font-size="18px" font-style="italic">ATN1</text>
+</g>
+</svg>
+</td><td class="posttest">2.037</td></tr>
+                    <tr><td class="posttest">9</td><td><svg width="190" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<text x="10%" y="70%" dominant-baseline="middle" text-anchor="middle"  font-size="18">1%</text>
+<rect height="15" width="0" y=25 x="25%" stroke-width="0" stroke="#000000" fill="#00a087"/>
+</g>
+</svg>
+</td><td><a href="#diagnosis9">Microcephaly 17, primary, autosomal recessive</a></td><td><svg width="26" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="10" y1="25" x2="20" y2="25"/>
+<rect height="3" width="10" y="22" x="10" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'Intellectual disability [HP:0001249]')"/>
+</g>
+</svg>
+</td><td class="posttest"><svg width="150" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="5" y1="25" x2="27" y2="25"/>
+<rect height="2" width="10" y="23" x="11" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'CIT')"/>
+<text x="42" y="25" font-size="18px" font-style="italic">CIT</text>
+</g>
+</svg>
+</td><td class="posttest">1.704</td></tr>
+                    <tr><td class="posttest">10</td><td><svg width="190" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<text x="10%" y="70%" dominant-baseline="middle" text-anchor="middle"  font-size="18">0%</text>
+<rect height="15" width="0" y=25 x="25%" stroke-width="0" stroke="#000000" fill="#00a087"/>
+</g>
+</svg>
+</td><td><a href="#diagnosis10">RECON progeroid syndrome</a></td><td><svg width="26" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="10" y1="25" x2="20" y2="25"/>
+<rect height="10" width="10" y="25" x="10" stroke-width="0" stroke="#000000" fill="#e64b35" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'Intellectual disability [HP:0001249]')"/>
+</g>
+</svg>
+</td><td class="posttest"><svg width="150" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="#000000" stroke-width="1" x1="5" y1="25" x2="27" y2="25"/>
+<rect height="8" width="10" y="17" x="11" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'RECQL')"/>
+<text x="42" y="25" font-size="18px" font-style="italic">RECQL</text>
+</g>
+</svg>
+</td><td class="posttest">1.248</td></tr>
+            </table>
+        </div>
+      </article>
+      </section>
+      <section>
+          <article>
+          <a name="diagnosis1"></a>
+            <header>
+              <h3>(1) Intellectual developmental disorder, autosomal dominant 6, with or without seizures [<a href="https://hpo.jax.org/app/browse/disease/OMIM:613970" target="_blank">OMIM:613970</a>]</h3>
+            </header>
+            <p>
+            <table class="redTable">
+              <tr><th>Pretest probability</th><th>Log<sub>10</sub> composite likelihood ratio</th><th>Posttest probability</th></tr>
+              <tr><td>1/8228</td><td>6.693</td><td>99.8%</td></tr>
+            </table>
+            </p>
+            <br/>
+
+            <table class="minimalistBlack">
+            <thead>
+            <tr>
+            <th>Position</th>
+            <th>Pathogenicity score</th>
+            <th>Max. pop. frequency</th>
+            <th>Genotype</th>
+            <th>ClinVar</th>
+            <th>Annotation</th>
+            </tr>
+            </thead>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:13768470-13768499" target="__blank">chr12:13768480TGGTAACCA&gt;T</a></td>
+                  <td class="red">1</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>PATHOGENIC</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000834.3: c.1439_1446del p.(Leu480Glnfs*35) FRAMESHIFT_TRUNCATION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:13768470-13768499" target="__blank">chr12:13768480TGGTAACCA&gt;T</a></td>
+                  <td class="red">1</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>PATHOGENIC</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000834.3: c.1439_1446del p.(Leu480Glnfs*35) FRAMESHIFT_TRUNCATION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:13768470-13768499" target="__blank">chr12:13768480TGGTAACCA&gt;T</a></td>
+                  <td class="red">1</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>PATHOGENIC</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000834.3: c.1439_1446del p.(Leu480Glnfs*35) FRAMESHIFT_TRUNCATION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:13768470-13768499" target="__blank">chr12:13768480TGGTAACCA&gt;T</a></td>
+                  <td class="red">1</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>PATHOGENIC</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000834.3: c.1439_1446del p.(Leu480Glnfs*35) FRAMESHIFT_TRUNCATION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr><td>Genotype score LR:</td><td colspan="5">GRIN2B: Pathogenic ClinVar variant detected. log<sub>10</sub>(LR)=3.000.</td></tr>
+                </table>
+            <br/>
+            <div style="border:1px solid black; text-align:center;">
+            <svg width="1000" height="205" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="250" y1="10" x2="250" y2="105" id="svg_1"/>
+<rect height="15" width="34" y="30" x="250" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'E: Intellectual disability[HP:0001249] LR: 0.693')"/>
+<text x="470" y="45" font-size="14px" font-style="normal">Intellectual disability [HP:0001249]</text>
+<rect height="15" width="150" y="67" x="250" stroke-width="1" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'LR: 3.000')"/>
+<text x="470" y="82" font-size="14px" font-style="italic">GRIN2B</text>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="50" y1="145" x2="450" y2="145"/>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="200" y1="150" x2="200" y2="140"/>
+<text x="200" y="160" font-size="12px" style="stroke: black; fill: black">-1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="300" y1="150" x2="300" y2="140"/>
+<text x="300" y="160" font-size="12px" style="stroke: black; fill: black">1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="150" y1="150" x2="150" y2="140"/>
+<text x="150" y="160" font-size="12px" style="stroke: black; fill: black">-2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="350" y1="150" x2="350" y2="140"/>
+<text x="350" y="160" font-size="12px" style="stroke: black; fill: black">2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="100" y1="150" x2="100" y2="140"/>
+<text x="100" y="160" font-size="12px" style="stroke: black; fill: black">-3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="400" y1="150" x2="400" y2="140"/>
+<text x="400" y="160" font-size="12px" style="stroke: black; fill: black">3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="50" y1="150" x2="50" y2="140"/>
+<text x="50" y="160" font-size="12px" style="stroke: black; fill: black">-4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="450" y1="150" x2="450" y2="140"/>
+<text x="450" y="160" font-size="12px" style="stroke: black; fill: black">4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="250" y1="150" x2="250" y2="140"/>
+<text x="250" y="160" font-size="12px" style="stroke: black; fill: black">0</text>
+<text x="100" y="180" font-size="16px" font-weight="bold">Intellectual developmental disorder, autosomal dominant 6, with or without seizures [OMIM:613970]</text>
+<text x="100" y="200" font-size="16px" font-weight="bold">Rank: #1 Posttest probability: 99.8%</text>
+</g>
+</svg>
+
+            </div>
+          </article>
+          <article>
+          <a name="diagnosis2"></a>
+            <header>
+              <h3>(2) Developmental and epileptic encephalopathy 27 [<a href="https://hpo.jax.org/app/browse/disease/OMIM:616139" target="_blank">OMIM:616139</a>]</h3>
+            </header>
+            <p>
+            <table class="redTable">
+              <tr><th>Pretest probability</th><th>Log<sub>10</sub> composite likelihood ratio</th><th>Posttest probability</th></tr>
+              <tr><td>1/8228</td><td>6.693</td><td>99.8%</td></tr>
+            </table>
+            </p>
+            <br/>
+
+            <table class="minimalistBlack">
+            <thead>
+            <tr>
+            <th>Position</th>
+            <th>Pathogenicity score</th>
+            <th>Max. pop. frequency</th>
+            <th>Genotype</th>
+            <th>ClinVar</th>
+            <th>Annotation</th>
+            </tr>
+            </thead>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:13768470-13768499" target="__blank">chr12:13768480TGGTAACCA&gt;T</a></td>
+                  <td class="red">1</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>PATHOGENIC</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000834.3: c.1439_1446del p.(Leu480Glnfs*35) FRAMESHIFT_TRUNCATION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:13768470-13768499" target="__blank">chr12:13768480TGGTAACCA&gt;T</a></td>
+                  <td class="red">1</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>PATHOGENIC</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000834.3: c.1439_1446del p.(Leu480Glnfs*35) FRAMESHIFT_TRUNCATION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:13768470-13768499" target="__blank">chr12:13768480TGGTAACCA&gt;T</a></td>
+                  <td class="red">1</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>PATHOGENIC</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000834.3: c.1439_1446del p.(Leu480Glnfs*35) FRAMESHIFT_TRUNCATION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:13768470-13768499" target="__blank">chr12:13768480TGGTAACCA&gt;T</a></td>
+                  <td class="red">1</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>PATHOGENIC</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000834.3: c.1439_1446del p.(Leu480Glnfs*35) FRAMESHIFT_TRUNCATION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr><td>Genotype score LR:</td><td colspan="5">GRIN2B: Pathogenic ClinVar variant detected. log<sub>10</sub>(LR)=3.000.</td></tr>
+                </table>
+            <br/>
+            <div style="border:1px solid black; text-align:center;">
+            <svg width="1000" height="205" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="250" y1="10" x2="250" y2="105" id="svg_1"/>
+<rect height="15" width="34" y="30" x="250" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'E: Intellectual disability[HP:0001249] LR: 0.693')"/>
+<text x="470" y="45" font-size="14px" font-style="normal">Intellectual disability [HP:0001249]</text>
+<rect height="15" width="150" y="67" x="250" stroke-width="1" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'LR: 3.000')"/>
+<text x="470" y="82" font-size="14px" font-style="italic">GRIN2B</text>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="50" y1="145" x2="450" y2="145"/>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="200" y1="150" x2="200" y2="140"/>
+<text x="200" y="160" font-size="12px" style="stroke: black; fill: black">-1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="300" y1="150" x2="300" y2="140"/>
+<text x="300" y="160" font-size="12px" style="stroke: black; fill: black">1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="150" y1="150" x2="150" y2="140"/>
+<text x="150" y="160" font-size="12px" style="stroke: black; fill: black">-2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="350" y1="150" x2="350" y2="140"/>
+<text x="350" y="160" font-size="12px" style="stroke: black; fill: black">2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="100" y1="150" x2="100" y2="140"/>
+<text x="100" y="160" font-size="12px" style="stroke: black; fill: black">-3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="400" y1="150" x2="400" y2="140"/>
+<text x="400" y="160" font-size="12px" style="stroke: black; fill: black">3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="50" y1="150" x2="50" y2="140"/>
+<text x="50" y="160" font-size="12px" style="stroke: black; fill: black">-4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="450" y1="150" x2="450" y2="140"/>
+<text x="450" y="160" font-size="12px" style="stroke: black; fill: black">4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="250" y1="150" x2="250" y2="140"/>
+<text x="250" y="160" font-size="12px" style="stroke: black; fill: black">0</text>
+<text x="100" y="180" font-size="16px" font-weight="bold">Developmental and epileptic encephalopathy 27 [OMIM:616139]</text>
+<text x="100" y="200" font-size="16px" font-weight="bold">Rank: #2 Posttest probability: 99.8%</text>
+</g>
+</svg>
+
+            </div>
+          </article>
+          <article>
+          <a name="diagnosis3"></a>
+            <header>
+              <h3>(3) Spinocerebellar ataxia 1 [<a href="https://hpo.jax.org/app/browse/disease/OMIM:164400" target="_blank">OMIM:164400</a>]</h3>
+            </header>
+            <p>
+            <table class="redTable">
+              <tr><th>Pretest probability</th><th>Log<sub>10</sub> composite likelihood ratio</th><th>Posttest probability</th></tr>
+              <tr><td>1/8228</td><td>5.485</td><td>97.4%</td></tr>
+            </table>
+            </p>
+            <br/>
+
+            <table class="minimalistBlack">
+            <thead>
+            <tr>
+            <th>Position</th>
+            <th>Pathogenicity score</th>
+            <th>Max. pop. frequency</th>
+            <th>Genotype</th>
+            <th>ClinVar</th>
+            <th>Annotation</th>
+            </tr>
+            </thead>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr6:16327905-16327929" target="__blank">chr6:16327915ATGC&gt;CTGC</a></td>
+                  <td class="red">0.935</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000332.3: c.627T>G p.(His209Gln) MISSENSE_VARIANT</li>
+                    <li>NM_001128164.1: c.627T>G p.(His209Gln) MISSENSE_VARIANT</li>
+                    <li>XM_005249287.1: c.627T>G p.(His209Gln) MISSENSE_VARIANT</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr6:16327905-16327929" target="__blank">chr6:16327915ATGC&gt;CTGC</a></td>
+                  <td class="red">0.935</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000332.3: c.627T>G p.(His209Gln) MISSENSE_VARIANT</li>
+                    <li>NM_001128164.1: c.627T>G p.(His209Gln) MISSENSE_VARIANT</li>
+                    <li>XM_005249287.1: c.627T>G p.(His209Gln) MISSENSE_VARIANT</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr6:16327905-16327929" target="__blank">chr6:16327915ATGC&gt;A</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000332.3: c.624_626del p.(Gln208del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001128164.1: c.624_626del p.(Gln208del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005249287.1: c.624_626del p.(Gln208del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr6:16327905-16327929" target="__blank">chr6:16327915ATGC&gt;ATGCTGC</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>BENIGN_OR_LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000332.3: c.624_626dup p.(Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001128164.1: c.624_626dup p.(Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005249287.1: c.624_626dup p.(Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr6:16327905-16327929" target="__blank">chr6:16327915ATGC&gt;ATGCTGCTGC</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>PATHOGENIC</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000332.3: c.621_626dup p.(Gln207_Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001128164.1: c.621_626dup p.(Gln207_Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005249287.1: c.621_626dup p.(Gln207_Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr6:16327905-16327929" target="__blank">chr6:16327915ATGC&gt;ATGCTGCTGCTGCTGCTGC</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>n/a</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000332.3: c.612_626dup p.(Gln204_Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001128164.1: c.612_626dup p.(Gln204_Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005249287.1: c.612_626dup p.(Gln204_Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr6:16327905-16327929" target="__blank">chr6:16327915ATGC&gt;ATGCTGCTGCTGC</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>n/a</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000332.3: c.618_626dup p.(Gln206_Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001128164.1: c.618_626dup p.(Gln206_Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005249287.1: c.618_626dup p.(Gln206_Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr6:16327905-16327929" target="__blank">chr6:16327915ATGC&gt;A</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000332.3: c.624_626del p.(Gln208del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001128164.1: c.624_626del p.(Gln208del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005249287.1: c.624_626del p.(Gln208del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr6:16327905-16327929" target="__blank">chr6:16327915ATGC&gt;ATGCTGC</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>BENIGN_OR_LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000332.3: c.624_626dup p.(Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001128164.1: c.624_626dup p.(Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005249287.1: c.624_626dup p.(Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr6:16327905-16327929" target="__blank">chr6:16327915ATGC&gt;ATGCTGCTGC</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>PATHOGENIC</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000332.3: c.621_626dup p.(Gln207_Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001128164.1: c.621_626dup p.(Gln207_Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005249287.1: c.621_626dup p.(Gln207_Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr6:16327905-16327929" target="__blank">chr6:16327915ATGC&gt;ATGCTGCTGCTGCTGCTGC</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>n/a</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000332.3: c.612_626dup p.(Gln204_Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001128164.1: c.612_626dup p.(Gln204_Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005249287.1: c.612_626dup p.(Gln204_Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr6:16327905-16327929" target="__blank">chr6:16327915ATGC&gt;ATGCTGCTGCTGC</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>n/a</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000332.3: c.618_626dup p.(Gln206_Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001128164.1: c.618_626dup p.(Gln206_Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005249287.1: c.618_626dup p.(Gln206_Gln208dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr><td>Genotype score LR:</td><td colspan="5">ATXN1: Pathogenic ClinVar variant detected. log<sub>10</sub>(LR)=3.000.</td></tr>
+                </table>
+            <br/>
+            <div style="border:1px solid black; text-align:center;">
+            <svg width="1000" height="205" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="250" y1="10" x2="250" y2="105" id="svg_1"/>
+<rect height="15" width="25" y="30" x="224" stroke-width="0" stroke="#000000" fill="#e64b35" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'Q~D:Intellectual disability[HP:0001249]~Abnormality of higher mental function[HP:0011446] LR: -0.515')"/>
+<text x="470" y="45" font-size="14px" font-style="normal">Intellectual disability [HP:0001249]</text>
+<rect height="15" width="150" y="67" x="250" stroke-width="1" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'LR: 3.000')"/>
+<text x="470" y="82" font-size="14px" font-style="italic">ATXN1</text>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="50" y1="145" x2="450" y2="145"/>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="200" y1="150" x2="200" y2="140"/>
+<text x="200" y="160" font-size="12px" style="stroke: black; fill: black">-1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="300" y1="150" x2="300" y2="140"/>
+<text x="300" y="160" font-size="12px" style="stroke: black; fill: black">1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="150" y1="150" x2="150" y2="140"/>
+<text x="150" y="160" font-size="12px" style="stroke: black; fill: black">-2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="350" y1="150" x2="350" y2="140"/>
+<text x="350" y="160" font-size="12px" style="stroke: black; fill: black">2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="100" y1="150" x2="100" y2="140"/>
+<text x="100" y="160" font-size="12px" style="stroke: black; fill: black">-3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="400" y1="150" x2="400" y2="140"/>
+<text x="400" y="160" font-size="12px" style="stroke: black; fill: black">3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="50" y1="150" x2="50" y2="140"/>
+<text x="50" y="160" font-size="12px" style="stroke: black; fill: black">-4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="450" y1="150" x2="450" y2="140"/>
+<text x="450" y="160" font-size="12px" style="stroke: black; fill: black">4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="250" y1="150" x2="250" y2="140"/>
+<text x="250" y="160" font-size="12px" style="stroke: black; fill: black">0</text>
+<text x="100" y="180" font-size="16px" font-weight="bold">Spinocerebellar ataxia 1 [OMIM:164400]</text>
+<text x="100" y="200" font-size="16px" font-weight="bold">Rank: #3 Posttest probability: 97.4%</text>
+</g>
+</svg>
+
+            </div>
+          </article>
+          <article>
+          <a name="diagnosis4"></a>
+            <header>
+              <h3>(4) Lissencephaly 1 [<a href="https://hpo.jax.org/app/browse/disease/OMIM:607432" target="_blank">OMIM:607432</a>]</h3>
+            </header>
+            <p>
+            <table class="redTable">
+              <tr><th>Pretest probability</th><th>Log<sub>10</sub> composite likelihood ratio</th><th>Posttest probability</th></tr>
+              <tr><td>1/8228</td><td>5.474</td><td>97.3%</td></tr>
+            </table>
+            </p>
+            <br/>
+
+            <table class="minimalistBlack">
+            <thead>
+            <tr>
+            <th>Position</th>
+            <th>Pathogenicity score</th>
+            <th>Max. pop. frequency</th>
+            <th>Genotype</th>
+            <th>ClinVar</th>
+            <th>Annotation</th>
+            </tr>
+            </thead>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr17:2585034-2585055" target="__blank">chr17:2585044A&gt;G</a></td>
+                  <td class="red">0.997</td>
+                  <td>0.02%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_000430.3: c.1181A>G p.(Tyr394Cys) MISSENSE_VARIANT</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr><td>Genotype score LR:</td><td colspan="5">PAFAH1B1: P(G|D)=0.0015. P(G|&#172;D)=0.3683.  Mode of inheritance: not available. Observed weighted pathogenic variant count: 1.00. &lambda;<sub>disease</sub>=1. &lambda;<sub>background</sub>=0.0015. log<sub>10</sub>(LR)=2.390</td></tr>
+                </table>
+            <br/>
+            <div style="border:1px solid black; text-align:center;">
+            <svg width="1000" height="205" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="250" y1="10" x2="250" y2="105" id="svg_1"/>
+<rect height="15" width="34" y="30" x="250" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'E: Intellectual disability[HP:0001249] LR: 0.693')"/>
+<text x="470" y="45" font-size="14px" font-style="normal">Intellectual disability [HP:0001249]</text>
+<rect height="15" width="119" y="67" x="250" stroke-width="1" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'LR: 2.390')"/>
+<text x="470" y="82" font-size="14px" font-style="italic">PAFAH1B1</text>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="50" y1="145" x2="450" y2="145"/>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="200" y1="150" x2="200" y2="140"/>
+<text x="200" y="160" font-size="12px" style="stroke: black; fill: black">-1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="300" y1="150" x2="300" y2="140"/>
+<text x="300" y="160" font-size="12px" style="stroke: black; fill: black">1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="150" y1="150" x2="150" y2="140"/>
+<text x="150" y="160" font-size="12px" style="stroke: black; fill: black">-2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="350" y1="150" x2="350" y2="140"/>
+<text x="350" y="160" font-size="12px" style="stroke: black; fill: black">2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="100" y1="150" x2="100" y2="140"/>
+<text x="100" y="160" font-size="12px" style="stroke: black; fill: black">-3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="400" y1="150" x2="400" y2="140"/>
+<text x="400" y="160" font-size="12px" style="stroke: black; fill: black">3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="50" y1="150" x2="50" y2="140"/>
+<text x="50" y="160" font-size="12px" style="stroke: black; fill: black">-4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="450" y1="150" x2="450" y2="140"/>
+<text x="450" y="160" font-size="12px" style="stroke: black; fill: black">4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="250" y1="150" x2="250" y2="140"/>
+<text x="250" y="160" font-size="12px" style="stroke: black; fill: black">0</text>
+<text x="100" y="180" font-size="16px" font-weight="bold">Lissencephaly 1 [OMIM:607432]</text>
+<text x="100" y="200" font-size="16px" font-weight="bold">Rank: #4 Posttest probability: 97.3%</text>
+</g>
+</svg>
+
+            </div>
+          </article>
+          <article>
+          <a name="diagnosis5"></a>
+            <header>
+              <h3>(5) Coenzyme Q10 deficiency, primary, 7 [<a href="https://hpo.jax.org/app/browse/disease/OMIM:616276" target="_blank">OMIM:616276</a>]</h3>
+            </header>
+            <p>
+            <table class="redTable">
+              <tr><th>Pretest probability</th><th>Log<sub>10</sub> composite likelihood ratio</th><th>Posttest probability</th></tr>
+              <tr><td>1/8228</td><td>3.415</td><td>24.0%</td></tr>
+            </table>
+            </p>
+            <br/>
+
+            <table class="minimalistBlack">
+            <thead>
+            <tr>
+            <th>Position</th>
+            <th>Pathogenicity score</th>
+            <th>Max. pop. frequency</th>
+            <th>Genotype</th>
+            <th>ClinVar</th>
+            <th>Annotation</th>
+            </tr>
+            </thead>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr9:131085135-131085156" target="__blank">chr9:131085145C&gt;T</a></td>
+                  <td class="red">0.992</td>
+                  <td>0.004%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>n/a</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_016035.3: c.8C>T p.(Thr3Ile) MISSENSE_VARIANT</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr><td>Genotype score LR:</td><td colspan="5">COQ4: P(G|D)=0.0118. P(G|&#172;D)=0.2701.  Mode of inheritance: autosomal recessive. Observed weighted pathogenic variant count: 0.99. &lambda;<sub>disease</sub>=2. &lambda;<sub>background</sub>=0.0115. log<sub>10</sub>(LR)=1.361</td></tr>
+                </table>
+            <br/>
+            <div style="border:1px solid black; text-align:center;">
+            <svg width="1000" height="205" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="250" y1="10" x2="250" y2="105" id="svg_1"/>
+<rect height="15" width="34" y="30" x="250" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'D&lt;Q: Intellectual disability, moderate[HP:0002342]&lt;Intellectual disability[HP:0001249] LR: 0.693')"/>
+<text x="470" y="45" font-size="14px" font-style="normal">Intellectual disability [HP:0001249]</text>
+<rect height="15" width="68" y="67" x="250" stroke-width="1" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'LR: 1.361')"/>
+<text x="470" y="82" font-size="14px" font-style="italic">COQ4</text>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="50" y1="145" x2="450" y2="145"/>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="200" y1="150" x2="200" y2="140"/>
+<text x="200" y="160" font-size="12px" style="stroke: black; fill: black">-1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="300" y1="150" x2="300" y2="140"/>
+<text x="300" y="160" font-size="12px" style="stroke: black; fill: black">1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="150" y1="150" x2="150" y2="140"/>
+<text x="150" y="160" font-size="12px" style="stroke: black; fill: black">-2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="350" y1="150" x2="350" y2="140"/>
+<text x="350" y="160" font-size="12px" style="stroke: black; fill: black">2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="100" y1="150" x2="100" y2="140"/>
+<text x="100" y="160" font-size="12px" style="stroke: black; fill: black">-3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="400" y1="150" x2="400" y2="140"/>
+<text x="400" y="160" font-size="12px" style="stroke: black; fill: black">3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="50" y1="150" x2="50" y2="140"/>
+<text x="50" y="160" font-size="12px" style="stroke: black; fill: black">-4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="450" y1="150" x2="450" y2="140"/>
+<text x="450" y="160" font-size="12px" style="stroke: black; fill: black">4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="250" y1="150" x2="250" y2="140"/>
+<text x="250" y="160" font-size="12px" style="stroke: black; fill: black">0</text>
+<text x="100" y="180" font-size="16px" font-weight="bold">Coenzyme Q10 deficiency, primary, 7 [OMIM:616276]</text>
+<text x="100" y="200" font-size="16px" font-weight="bold">Rank: #5 Posttest probability: 24.0%</text>
+</g>
+</svg>
+
+            </div>
+          </article>
+          <article>
+          <a name="diagnosis6"></a>
+            <header>
+              <h3>(6) Nijmegen breakage syndrome [<a href="https://hpo.jax.org/app/browse/disease/OMIM:251260" target="_blank">OMIM:251260</a>]</h3>
+            </header>
+            <p>
+            <table class="redTable">
+              <tr><th>Pretest probability</th><th>Log<sub>10</sub> composite likelihood ratio</th><th>Posttest probability</th></tr>
+              <tr><td>1/8228</td><td>2.833</td><td>7.6%</td></tr>
+            </table>
+            </p>
+            <br/>
+
+            <table class="minimalistBlack">
+            <thead>
+            <tr>
+            <th>Position</th>
+            <th>Pathogenicity score</th>
+            <th>Max. pop. frequency</th>
+            <th>Genotype</th>
+            <th>ClinVar</th>
+            <th>Annotation</th>
+            </tr>
+            </thead>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr8:90983497-90983518" target="__blank">chr8:90983507G&gt;C</a></td>
+                  <td class="red">0.998</td>
+                  <td>0.003%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>CONFLICTING_PATHOGENICITY_INTERPRETATIONS</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_002485.4: c.596C>G p.(Pro199Arg) MISSENSE_VARIANT</li>
+                    <li>XM_005250923.1: c.350C>G p.(Pro117Arg) MISSENSE_VARIANT</li>
+                    <li>XR_242390.1: n.733C>G  NON_CODING_TRANSCRIPT_EXON_VARIANT</li>
+                    <li>XR_242391.1: n.809C>G  NON_CODING_TRANSCRIPT_EXON_VARIANT</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr><td>Genotype score LR:</td><td colspan="5">NBN: P(G|D)=0.0230. P(G|&#172;D)=0.2705.  Mode of inheritance: autosomal recessive. Observed weighted pathogenic variant count: 1.00. &lambda;<sub>disease</sub>=2. &lambda;<sub>background</sub>=0.0234. log<sub>10</sub>(LR)=1.070</td></tr>
+                </table>
+            <br/>
+            <div style="border:1px solid black; text-align:center;">
+            <svg width="1000" height="205" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="250" y1="10" x2="250" y2="105" id="svg_1"/>
+<rect height="15" width="34" y="30" x="250" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'E: Intellectual disability[HP:0001249] LR: 0.693')"/>
+<text x="470" y="45" font-size="14px" font-style="normal">Intellectual disability [HP:0001249]</text>
+<rect height="15" width="53" y="67" x="250" stroke-width="1" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'LR: 1.070')"/>
+<text x="470" y="82" font-size="14px" font-style="italic">NBN</text>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="50" y1="145" x2="450" y2="145"/>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="200" y1="150" x2="200" y2="140"/>
+<text x="200" y="160" font-size="12px" style="stroke: black; fill: black">-1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="300" y1="150" x2="300" y2="140"/>
+<text x="300" y="160" font-size="12px" style="stroke: black; fill: black">1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="150" y1="150" x2="150" y2="140"/>
+<text x="150" y="160" font-size="12px" style="stroke: black; fill: black">-2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="350" y1="150" x2="350" y2="140"/>
+<text x="350" y="160" font-size="12px" style="stroke: black; fill: black">2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="100" y1="150" x2="100" y2="140"/>
+<text x="100" y="160" font-size="12px" style="stroke: black; fill: black">-3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="400" y1="150" x2="400" y2="140"/>
+<text x="400" y="160" font-size="12px" style="stroke: black; fill: black">3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="50" y1="150" x2="50" y2="140"/>
+<text x="50" y="160" font-size="12px" style="stroke: black; fill: black">-4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="450" y1="150" x2="450" y2="140"/>
+<text x="450" y="160" font-size="12px" style="stroke: black; fill: black">4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="250" y1="150" x2="250" y2="140"/>
+<text x="250" y="160" font-size="12px" style="stroke: black; fill: black">0</text>
+<text x="100" y="180" font-size="16px" font-weight="bold">Nijmegen breakage syndrome [OMIM:251260]</text>
+<text x="100" y="200" font-size="16px" font-weight="bold">Rank: #6 Posttest probability: 7.6%</text>
+</g>
+</svg>
+
+            </div>
+          </article>
+          <article>
+          <a name="diagnosis7"></a>
+            <header>
+              <h3>(7) Intellectual developmental disorder with short stature and variable skeletal anomalies [<a href="https://hpo.jax.org/app/browse/disease/OMIM:618453" target="_blank">OMIM:618453</a>]</h3>
+            </header>
+            <p>
+            <table class="redTable">
+              <tr><th>Pretest probability</th><th>Log<sub>10</sub> composite likelihood ratio</th><th>Posttest probability</th></tr>
+              <tr><td>1/8228</td><td>2.402</td><td>3.0%</td></tr>
+            </table>
+            </p>
+            <br/>
+
+            <table class="minimalistBlack">
+            <thead>
+            <tr>
+            <th>Position</th>
+            <th>Pathogenicity score</th>
+            <th>Max. pop. frequency</th>
+            <th>Genotype</th>
+            <th>ClinVar</th>
+            <th>Annotation</th>
+            </tr>
+            </thead>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr7:5269332-5269353" target="__blank">chr7:5269342T&gt;C</a></td>
+                  <td class="red">1</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>n/a</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001278299.1: c.793T>C p.(Tyr265His) MISSENSE_VARIANT</li>
+                    <li>NM_015610.3: c.1225T>C p.(Tyr409His) MISSENSE_VARIANT</li>
+                    <li>NM_016003.3: c.1171T>C p.(Tyr391His) MISSENSE_VARIANT</li>
+                    <li>NM_001033518.1: c.1219+6T>C p.? SPLICE_REGION_VARIANT</li>
+                    <li>NM_001033519.1: c.1165+6T>C p.? SPLICE_REGION_VARIANT</li>
+                    <li>NM_001033520.1: c.1042+6T>C p.? SPLICE_REGION_VARIANT</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr><td>Genotype score LR:</td><td colspan="5">WIPI2: P(G|D)=0.0378. P(G|&#172;D)=0.2707.  Mode of inheritance: autosomal recessive. Observed weighted pathogenic variant count: 1.00. &lambda;<sub>disease</sub>=2. &lambda;<sub>background</sub>=0.0394. log<sub>10</sub>(LR)=0.855</td></tr>
+                </table>
+            <br/>
+            <div style="border:1px solid black; text-align:center;">
+            <svg width="1000" height="205" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="250" y1="10" x2="250" y2="105" id="svg_1"/>
+<rect height="15" width="34" y="30" x="250" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'D&lt;Q: Intellectual disability, severe[HP:0010864]&lt;Intellectual disability[HP:0001249] LR: 0.693')"/>
+<text x="470" y="45" font-size="14px" font-style="normal">Intellectual disability [HP:0001249]</text>
+<rect height="15" width="42" y="67" x="250" stroke-width="1" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'LR: 0.855')"/>
+<text x="470" y="82" font-size="14px" font-style="italic">WIPI2</text>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="50" y1="145" x2="450" y2="145"/>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="200" y1="150" x2="200" y2="140"/>
+<text x="200" y="160" font-size="12px" style="stroke: black; fill: black">-1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="300" y1="150" x2="300" y2="140"/>
+<text x="300" y="160" font-size="12px" style="stroke: black; fill: black">1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="150" y1="150" x2="150" y2="140"/>
+<text x="150" y="160" font-size="12px" style="stroke: black; fill: black">-2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="350" y1="150" x2="350" y2="140"/>
+<text x="350" y="160" font-size="12px" style="stroke: black; fill: black">2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="100" y1="150" x2="100" y2="140"/>
+<text x="100" y="160" font-size="12px" style="stroke: black; fill: black">-3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="400" y1="150" x2="400" y2="140"/>
+<text x="400" y="160" font-size="12px" style="stroke: black; fill: black">3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="50" y1="150" x2="50" y2="140"/>
+<text x="50" y="160" font-size="12px" style="stroke: black; fill: black">-4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="450" y1="150" x2="450" y2="140"/>
+<text x="450" y="160" font-size="12px" style="stroke: black; fill: black">4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="250" y1="150" x2="250" y2="140"/>
+<text x="250" y="160" font-size="12px" style="stroke: black; fill: black">0</text>
+<text x="100" y="180" font-size="16px" font-weight="bold">Intellectual developmental disorder with short stature and variable skeletal anomalies [OMIM:618453]</text>
+<text x="100" y="200" font-size="16px" font-weight="bold">Rank: #7 Posttest probability: 3.0%</text>
+</g>
+</svg>
+
+            </div>
+          </article>
+          <article>
+          <a name="diagnosis8"></a>
+            <header>
+              <h3>(8) Congenital hypotonia, epilepsy, developmental delay, and digital anomalies [<a href="https://hpo.jax.org/app/browse/disease/OMIM:618494" target="_blank">OMIM:618494</a>]</h3>
+            </header>
+            <p>
+            <table class="redTable">
+              <tr><th>Pretest probability</th><th>Log<sub>10</sub> composite likelihood ratio</th><th>Posttest probability</th></tr>
+              <tr><td>1/8228</td><td>2.037</td><td>1.3%</td></tr>
+            </table>
+            </p>
+            <br/>
+
+            <table class="minimalistBlack">
+            <thead>
+            <tr>
+            <th>Position</th>
+            <th>Pathogenicity score</th>
+            <th>Max. pop. frequency</th>
+            <th>Genotype</th>
+            <th>ClinVar</th>
+            <th>Annotation</th>
+            </tr>
+            </thead>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>BENIGN_OR_LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1506_1508dup p.(Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001940.3: c.1506_1508dup p.(Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005253672.1: c.1503_1505dup p.(Gln501dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1494_1508del p.(Gln498_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1494_1508del p.(Gln498_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1491_1505del p.(Gln497_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1506_1508del p.(Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1506_1508del p.(Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1503_1505del p.(Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;A</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1488_1508del p.(Gln496_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1488_1508del p.(Gln496_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1485_1505del p.(Gln495_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1500_1508del p.(Gln500_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1500_1508del p.(Gln500_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1497_1505del p.(Gln499_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>n/a</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1497_1508dup p.(Gln499_Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001940.3: c.1497_1508dup p.(Gln499_Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005253672.1: c.1494_1505dup p.(Gln498_Gln501dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>BENIGN_OR_LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1506_1508dup p.(Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001940.3: c.1506_1508dup p.(Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005253672.1: c.1503_1505dup p.(Gln501dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1494_1508del p.(Gln498_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1494_1508del p.(Gln498_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1491_1505del p.(Gln497_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1506_1508del p.(Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1506_1508del p.(Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1503_1505del p.(Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;A</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1488_1508del p.(Gln496_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1488_1508del p.(Gln496_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1485_1505del p.(Gln495_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1500_1508del p.(Gln500_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1500_1508del p.(Gln500_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1497_1505del p.(Gln499_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>n/a</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1497_1508dup p.(Gln499_Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001940.3: c.1497_1508dup p.(Gln499_Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005253672.1: c.1494_1505dup p.(Gln498_Gln501dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>BENIGN_OR_LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1506_1508dup p.(Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001940.3: c.1506_1508dup p.(Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005253672.1: c.1503_1505dup p.(Gln501dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1494_1508del p.(Gln498_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1494_1508del p.(Gln498_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1491_1505del p.(Gln497_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1506_1508del p.(Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1506_1508del p.(Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1503_1505del p.(Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;A</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1488_1508del p.(Gln496_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1488_1508del p.(Gln496_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1485_1505del p.(Gln495_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1500_1508del p.(Gln500_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1500_1508del p.(Gln500_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1497_1505del p.(Gln499_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>n/a</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1497_1508dup p.(Gln499_Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001940.3: c.1497_1508dup p.(Gln499_Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005253672.1: c.1494_1505dup p.(Gln498_Gln501dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>BENIGN_OR_LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1506_1508dup p.(Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001940.3: c.1506_1508dup p.(Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005253672.1: c.1503_1505dup p.(Gln501dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1494_1508del p.(Gln498_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1494_1508del p.(Gln498_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1491_1505del p.(Gln497_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1506_1508del p.(Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1506_1508del p.(Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1503_1505del p.(Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;A</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1488_1508del p.(Gln496_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1488_1508del p.(Gln496_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1485_1505del p.(Gln495_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1500_1508del p.(Gln500_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1500_1508del p.(Gln500_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1497_1505del p.(Gln499_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>n/a</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1497_1508dup p.(Gln499_Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001940.3: c.1497_1508dup p.(Gln499_Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005253672.1: c.1494_1505dup p.(Gln498_Gln501dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>BENIGN_OR_LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1506_1508dup p.(Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001940.3: c.1506_1508dup p.(Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005253672.1: c.1503_1505dup p.(Gln501dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1494_1508del p.(Gln498_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1494_1508del p.(Gln498_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1491_1505del p.(Gln497_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1506_1508del p.(Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1506_1508del p.(Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1503_1505del p.(Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;A</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1488_1508del p.(Gln496_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1488_1508del p.(Gln496_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1485_1505del p.(Gln495_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1500_1508del p.(Gln500_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1500_1508del p.(Gln500_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1497_1505del p.(Gln499_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>n/a</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1497_1508dup p.(Gln499_Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001940.3: c.1497_1508dup p.(Gln499_Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005253672.1: c.1494_1505dup p.(Gln498_Gln501dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>BENIGN_OR_LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1506_1508dup p.(Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001940.3: c.1506_1508dup p.(Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005253672.1: c.1503_1505dup p.(Gln501dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1494_1508del p.(Gln498_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1494_1508del p.(Gln498_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1491_1505del p.(Gln497_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1506_1508del p.(Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1506_1508del p.(Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1503_1505del p.(Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;A</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1488_1508del p.(Gln496_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1488_1508del p.(Gln496_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1485_1505del p.(Gln495_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1500_1508del p.(Gln500_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1500_1508del p.(Gln500_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1497_1505del p.(Gln499_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>n/a</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1497_1508dup p.(Gln499_Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001940.3: c.1497_1508dup p.(Gln499_Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005253672.1: c.1494_1505dup p.(Gln498_Gln501dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>BENIGN_OR_LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1506_1508dup p.(Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001940.3: c.1506_1508dup p.(Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005253672.1: c.1503_1505dup p.(Gln501dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1494_1508del p.(Gln498_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1494_1508del p.(Gln498_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1491_1505del p.(Gln497_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1506_1508del p.(Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1506_1508del p.(Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1503_1505del p.(Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;A</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1488_1508del p.(Gln496_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1488_1508del p.(Gln496_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1485_1505del p.(Gln495_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1500_1508del p.(Gln500_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1500_1508del p.(Gln500_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1497_1505del p.(Gln499_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>n/a</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1497_1508dup p.(Gln499_Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001940.3: c.1497_1508dup p.(Gln499_Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005253672.1: c.1494_1505dup p.(Gln498_Gln501dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>BENIGN_OR_LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1506_1508dup p.(Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001940.3: c.1506_1508dup p.(Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005253672.1: c.1503_1505dup p.(Gln501dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1494_1508del p.(Gln498_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1494_1508del p.(Gln498_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1491_1505del p.(Gln497_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1506_1508del p.(Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1506_1508del p.(Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1503_1505del p.(Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;A</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1488_1508del p.(Gln496_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1488_1508del p.(Gln496_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1485_1505del p.(Gln495_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>UNCERTAIN_SIGNIFICANCE</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1500_1508del p.(Gln500_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>NM_001940.3: c.1500_1508del p.(Gln500_Gln502del) DISRUPTIVE_INFRAME_DELETION</li>
+                    <li>XM_005253672.1: c.1497_1505del p.(Gln499_Gln501del) DISRUPTIVE_INFRAME_DELETION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:7045881-7045923" target="__blank">chr12:7045891ACAGCAGCAGCAGCAGCAGCAG&gt;ACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAG</a></td>
+                  <td class="red">0.85</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>n/a</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001007026.1: c.1497_1508dup p.(Gln499_Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>NM_001940.3: c.1497_1508dup p.(Gln499_Gln502dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    <li>XM_005253672.1: c.1494_1505dup p.(Gln498_Gln501dup) DISRUPTIVE_INFRAME_INSERTION</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr><td>Genotype score LR:</td><td colspan="5">ATN1:  Mode of inheritance: not available. Heuristic for high number of observed predicted pathogenic variants. Observed weighted pathogenic variant count: 40.80. &lambda;<sub>disease</sub>=1. &lambda;<sub>background</sub>=0.0451. log<sub>10</sub>(LR)=0.672.</td></tr>
+                </table>
+            <br/>
+            <div style="border:1px solid black; text-align:center;">
+            <svg width="1000" height="205" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="250" y1="10" x2="250" y2="105" id="svg_1"/>
+<rect height="15" width="34" y="30" x="250" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'E: Intellectual disability[HP:0001249] LR: 0.693')"/>
+<text x="470" y="45" font-size="14px" font-style="normal">Intellectual disability [HP:0001249]</text>
+<rect height="15" width="33" y="67" x="250" stroke-width="1" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'LR: 0.672')"/>
+<text x="470" y="82" font-size="14px" font-style="italic">ATN1</text>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="50" y1="145" x2="450" y2="145"/>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="200" y1="150" x2="200" y2="140"/>
+<text x="200" y="160" font-size="12px" style="stroke: black; fill: black">-1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="300" y1="150" x2="300" y2="140"/>
+<text x="300" y="160" font-size="12px" style="stroke: black; fill: black">1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="150" y1="150" x2="150" y2="140"/>
+<text x="150" y="160" font-size="12px" style="stroke: black; fill: black">-2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="350" y1="150" x2="350" y2="140"/>
+<text x="350" y="160" font-size="12px" style="stroke: black; fill: black">2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="100" y1="150" x2="100" y2="140"/>
+<text x="100" y="160" font-size="12px" style="stroke: black; fill: black">-3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="400" y1="150" x2="400" y2="140"/>
+<text x="400" y="160" font-size="12px" style="stroke: black; fill: black">3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="50" y1="150" x2="50" y2="140"/>
+<text x="50" y="160" font-size="12px" style="stroke: black; fill: black">-4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="450" y1="150" x2="450" y2="140"/>
+<text x="450" y="160" font-size="12px" style="stroke: black; fill: black">4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="250" y1="150" x2="250" y2="140"/>
+<text x="250" y="160" font-size="12px" style="stroke: black; fill: black">0</text>
+<text x="100" y="180" font-size="16px" font-weight="bold">Congenital hypotonia, epilepsy, developmental delay, and digital anomalies [OMIM:618494]</text>
+<text x="100" y="200" font-size="16px" font-weight="bold">Rank: #8 Posttest probability: 1.3%</text>
+</g>
+</svg>
+
+            </div>
+          </article>
+          <article>
+          <a name="diagnosis9"></a>
+            <header>
+              <h3>(9) Microcephaly 17, primary, autosomal recessive [<a href="https://hpo.jax.org/app/browse/disease/OMIM:617090" target="_blank">OMIM:617090</a>]</h3>
+            </header>
+            <p>
+            <table class="redTable">
+              <tr><th>Pretest probability</th><th>Log<sub>10</sub> composite likelihood ratio</th><th>Posttest probability</th></tr>
+              <tr><td>1/8228</td><td>1.704</td><td>0.6%</td></tr>
+            </table>
+            </p>
+            <br/>
+
+            <table class="minimalistBlack">
+            <thead>
+            <tr>
+            <th>Position</th>
+            <th>Pathogenicity score</th>
+            <th>Max. pop. frequency</th>
+            <th>Genotype</th>
+            <th>ClinVar</th>
+            <th>Annotation</th>
+            </tr>
+            </thead>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:120270588-120270609" target="__blank">chr12:120270598C&gt;T</a></td>
+                  <td class="red">0.997</td>
+                  <td>0.023%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>n/a</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_001206999.1: c.730G>A p.(Ala244Thr) MISSENSE_VARIANT</li>
+                    <li>NM_007174.2: c.730G>A p.(Ala244Thr) MISSENSE_VARIANT</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr><td>Genotype score LR:</td><td colspan="5">CIT: P(G|D)=0.0844. P(G|&#172;D)=0.2704.  Mode of inheritance: autosomal recessive. Observed weighted pathogenic variant count: 1.00. &lambda;<sub>disease</sub>=2. &lambda;<sub>background</sub>=0.0917. log<sub>10</sub>(LR)=0.506</td></tr>
+                </table>
+            <br/>
+            <div style="border:1px solid black; text-align:center;">
+            <svg width="1000" height="205" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="250" y1="10" x2="250" y2="105" id="svg_1"/>
+<rect height="15" width="34" y="30" x="250" stroke-width="0" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'E: Intellectual disability[HP:0001249] LR: 0.693')"/>
+<text x="470" y="45" font-size="14px" font-style="normal">Intellectual disability [HP:0001249]</text>
+<rect height="15" width="25" y="67" x="250" stroke-width="1" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'LR: 0.506')"/>
+<text x="470" y="82" font-size="14px" font-style="italic">CIT</text>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="50" y1="145" x2="450" y2="145"/>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="200" y1="150" x2="200" y2="140"/>
+<text x="200" y="160" font-size="12px" style="stroke: black; fill: black">-1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="300" y1="150" x2="300" y2="140"/>
+<text x="300" y="160" font-size="12px" style="stroke: black; fill: black">1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="150" y1="150" x2="150" y2="140"/>
+<text x="150" y="160" font-size="12px" style="stroke: black; fill: black">-2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="350" y1="150" x2="350" y2="140"/>
+<text x="350" y="160" font-size="12px" style="stroke: black; fill: black">2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="100" y1="150" x2="100" y2="140"/>
+<text x="100" y="160" font-size="12px" style="stroke: black; fill: black">-3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="400" y1="150" x2="400" y2="140"/>
+<text x="400" y="160" font-size="12px" style="stroke: black; fill: black">3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="50" y1="150" x2="50" y2="140"/>
+<text x="50" y="160" font-size="12px" style="stroke: black; fill: black">-4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="450" y1="150" x2="450" y2="140"/>
+<text x="450" y="160" font-size="12px" style="stroke: black; fill: black">4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="250" y1="150" x2="250" y2="140"/>
+<text x="250" y="160" font-size="12px" style="stroke: black; fill: black">0</text>
+<text x="100" y="180" font-size="16px" font-weight="bold">Microcephaly 17, primary, autosomal recessive [OMIM:617090]</text>
+<text x="100" y="200" font-size="16px" font-weight="bold">Rank: #9 Posttest probability: 0.6%</text>
+</g>
+</svg>
+
+            </div>
+          </article>
+          <article>
+          <a name="diagnosis10"></a>
+            <header>
+              <h3>(10) RECON progeroid syndrome [<a href="https://hpo.jax.org/app/browse/disease/OMIM:620370" target="_blank">OMIM:620370</a>]</h3>
+            </header>
+            <p>
+            <table class="redTable">
+              <tr><th>Pretest probability</th><th>Log<sub>10</sub> composite likelihood ratio</th><th>Posttest probability</th></tr>
+              <tr><td>1/8228</td><td>1.248</td><td>0.2%</td></tr>
+            </table>
+            </p>
+            <br/>
+
+            <table class="minimalistBlack">
+            <thead>
+            <tr>
+            <th>Position</th>
+            <th>Pathogenicity score</th>
+            <th>Max. pop. frequency</th>
+            <th>Genotype</th>
+            <th>ClinVar</th>
+            <th>Annotation</th>
+            </tr>
+            </thead>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:21623274-21623295" target="__blank">chr12:21623284C&gt;CAAAAAAA</a></td>
+                  <td class="red">0.8</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>n/a</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_002907.3: c.1798-5_1798-4insTTTTTTT p.? SPLICE_REGION_VARIANT</li>
+                    <li>NM_032941.2: c.1798-5_1798-4insTTTTTTT p.? SPLICE_REGION_VARIANT</li>
+                    <li>XM_005253461.1: c.1798-5_1798-4insTTTTTTT p.? SPLICE_REGION_VARIANT</li>
+                    <li>XM_005253462.1: c.1798-5_1798-4insTTTTTTT p.? SPLICE_REGION_VARIANT</li>
+                    <li>XM_005253463.1: c.1798-5_1798-4insTTTTTTT p.? SPLICE_REGION_VARIANT</li>
+                    <li>XM_005253464.1: c.1798-5_1798-4insTTTTTTT p.? SPLICE_REGION_VARIANT</li>
+                    <li>NM_024854.3: c.*1606_*1612dup p.(=) THREE_PRIME_UTR_EXON_VARIANT</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:21623274-21623295" target="__blank">chr12:21623284C&gt;CAAAAAAA</a></td>
+                  <td class="red">0.8</td>
+                  <td>0%</td>
+                  <td>NOT_OBSERVED</td>
+                  <td>n/a</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_002907.3: c.1798-5_1798-4insTTTTTTT p.? SPLICE_REGION_VARIANT</li>
+                    <li>NM_032941.2: c.1798-5_1798-4insTTTTTTT p.? SPLICE_REGION_VARIANT</li>
+                    <li>XM_005253461.1: c.1798-5_1798-4insTTTTTTT p.? SPLICE_REGION_VARIANT</li>
+                    <li>XM_005253462.1: c.1798-5_1798-4insTTTTTTT p.? SPLICE_REGION_VARIANT</li>
+                    <li>XM_005253463.1: c.1798-5_1798-4insTTTTTTT p.? SPLICE_REGION_VARIANT</li>
+                    <li>XM_005253464.1: c.1798-5_1798-4insTTTTTTT p.? SPLICE_REGION_VARIANT</li>
+                    <li>NM_024854.3: c.*1606_*1612dup p.(=) THREE_PRIME_UTR_EXON_VARIANT</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:21623274-21623295" target="__blank">chr12:21623284C&gt;A</a></td>
+                  <td>0</td>
+                  <td>21.583%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>BENIGN_OR_LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_002907.3: c.1798-4G>T p.? SPLICE_REGION_VARIANT</li>
+                    <li>NM_032941.2: c.1798-4G>T p.? SPLICE_REGION_VARIANT</li>
+                    <li>XM_005253461.1: c.1798-4G>T p.? SPLICE_REGION_VARIANT</li>
+                    <li>XM_005253462.1: c.1798-4G>T p.? SPLICE_REGION_VARIANT</li>
+                    <li>XM_005253463.1: c.1798-4G>T p.? SPLICE_REGION_VARIANT</li>
+                    <li>XM_005253464.1: c.1798-4G>T p.? SPLICE_REGION_VARIANT</li>
+                    <li>NM_024854.3: c.*1596C>A p.(=) THREE_PRIME_UTR_EXON_VARIANT</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr>
+                  <td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr12:21623274-21623295" target="__blank">chr12:21623284C&gt;A</a></td>
+                  <td>0</td>
+                  <td>21.583%</td>
+                  <td>HETEROZYGOUS</td>
+                  <td>BENIGN_OR_LIKELY_BENIGN</td>
+                  <td>
+                  <ul class="no-list-style">
+                    <li>NM_002907.3: c.1798-4G>T p.? SPLICE_REGION_VARIANT</li>
+                    <li>NM_032941.2: c.1798-4G>T p.? SPLICE_REGION_VARIANT</li>
+                    <li>XM_005253461.1: c.1798-4G>T p.? SPLICE_REGION_VARIANT</li>
+                    <li>XM_005253462.1: c.1798-4G>T p.? SPLICE_REGION_VARIANT</li>
+                    <li>XM_005253463.1: c.1798-4G>T p.? SPLICE_REGION_VARIANT</li>
+                    <li>XM_005253464.1: c.1798-4G>T p.? SPLICE_REGION_VARIANT</li>
+                    <li>NM_024854.3: c.*1596C>A p.(=) THREE_PRIME_UTR_EXON_VARIANT</li>
+                    </ul>
+                  </td>
+                  </tr>
+                <tr><td>Genotype score LR:</td><td colspan="5">RECQL: P(G|D)=0.0068. P(G|&#172;D)=0.2870.  Mode of inheritance: autosomal recessive. Observed weighted pathogenic variant count: 1.60. &lambda;<sub>disease</sub>=2. &lambda;<sub>background</sub>=0.0574. log<sub>10</sub>(LR)=1.624</td></tr>
+                </table>
+            <br/>
+            <div style="border:1px solid black; text-align:center;">
+            <svg width="1000" height="205" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Created by LIRICAL -->
+<g>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="250" y1="10" x2="250" y2="105" id="svg_1"/>
+<rect height="15" width="100" y="30" x="150" stroke-width="0" stroke="#000000" fill="#e64b35" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'Q~D:Intellectual disability[HP:0001249]~Abnormality of the nervous system[HP:0000707] LR: -2.000')"/>
+<text x="470" y="45" font-size="14px" font-style="normal">Intellectual disability [HP:0001249]</text>
+<rect height="15" width="81" y="67" x="250" stroke-width="1" stroke="#000000" fill="#00a087" onmouseout="hideTooltip();" onmouseover="showTooltip(evt,'LR: 1.624')"/>
+<text x="470" y="82" font-size="14px" font-style="italic">RECQL</text>
+<line fill="none" stroke="midnightblue" stroke-width="2" x1="50" y1="145" x2="450" y2="145"/>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="200" y1="150" x2="200" y2="140"/>
+<text x="200" y="160" font-size="12px" style="stroke: black; fill: black">-1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="300" y1="150" x2="300" y2="140"/>
+<text x="300" y="160" font-size="12px" style="stroke: black; fill: black">1</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="150" y1="150" x2="150" y2="140"/>
+<text x="150" y="160" font-size="12px" style="stroke: black; fill: black">-2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="350" y1="150" x2="350" y2="140"/>
+<text x="350" y="160" font-size="12px" style="stroke: black; fill: black">2</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="100" y1="150" x2="100" y2="140"/>
+<text x="100" y="160" font-size="12px" style="stroke: black; fill: black">-3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="400" y1="150" x2="400" y2="140"/>
+<text x="400" y="160" font-size="12px" style="stroke: black; fill: black">3</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="50" y1="150" x2="50" y2="140"/>
+<text x="50" y="160" font-size="12px" style="stroke: black; fill: black">-4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="450" y1="150" x2="450" y2="140"/>
+<text x="450" y="160" font-size="12px" style="stroke: black; fill: black">4</text>
+<line fill="none" stroke="midnightblue" stroke-width="1" x1="250" y1="150" x2="250" y2="140"/>
+<text x="250" y="160" font-size="12px" style="stroke: black; fill: black">0</text>
+<text x="100" y="180" font-size="16px" font-weight="bold">RECON progeroid syndrome [OMIM:620370]</text>
+<text x="100" y="200" font-size="16px" font-weight="bold">Rank: #10 Posttest probability: 0.2%</text>
+</g>
+</svg>
+
+            </div>
+          </article>
+    </section>
+    <section>
+      <a name="othergenes"></a>
+      <article>
+        <h2>Genes/Diseases with low posttest probability:</h2>
+        <p>Variants were identified in the following genes. The posttest probability of diseases
+        associated with these genes was below 5.0%. The table shows the total count of
+        variants found in the genes.</p>
+        <a id="show-other-genes-table" class="table-btn" onclick="showTable()">Show Table</a>
+        <a id="hide-other-genes-table" class="table-btn" onclick="hideTable()">Hide Table</a>
+        <table class="redTable" id="other-genes-table">
+          <tr><th style="width:60%">Disease</th><th>Gene</th><th>Post test probability</th><th>variant count</th></tr>
+            <tr><td class="disease"><a href="https://omim.org/261990" target="_blank">Abnormal hair, joint laxity, and developmental delay</a></td><td><i>HEPHL1</i></td><td>2.14 x 10<sup>-03</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/125370" target="_blank">Dentatorubral-pallidoluysian atrophy</a></td><td><i>ATN1</i></td><td>2.07 x 10<sup>-03</sup></td><td>48</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/619386" target="_blank">Combined oxidative phosphorylation deficiency 52</a></td><td><i>NFS1</i></td><td>1.12 x 10<sup>-03</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/612900" target="_blank">Cerebral palsy, spastic quadriplegic, 2</a></td><td><i>KANK1</i></td><td>9.54 x 10<sup>-04</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/614756" target="_blank">Cerebellar dysfunction with variable cognitive and behavioral abnormalities</a></td><td><i>CAMTA1</i></td><td>8.54 x 10<sup>-04</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/617951" target="_blank">Leukodystrophy, hypomyelinating, 15</a></td><td><i>EPRS1</i></td><td>7.03 x 10<sup>-04</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/162800" target="_blank">Cyclic neutropenia</a></td><td><i>ELANE</i></td><td>6.85 x 10<sup>-04</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/202700" target="_blank">Neutropenia, severe congenital, 1, autosomal dominant</a></td><td><i>ELANE</i></td><td>6.85 x 10<sup>-04</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/269150" target="_blank">Schinzel-Giedion midface-retraction syndrome</a></td><td><i>SETBP1</i></td><td>5.99 x 10<sup>-04</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/616439" target="_blank">Frontotemporal dementia and/or amyotrophic lateral sclerosis 4</a></td><td><i>TBK1</i></td><td>5.94 x 10<sup>-04</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/617900" target="_blank">Encephalopathy, acute, infection-induced (herpes-specific), susceptibility to, 8</a></td><td><i>TBK1</i></td><td>5.94 x 10<sup>-04</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/259770" target="_blank">Osteoporosis-pseudoglioma syndrome</a></td><td><i>LRP5</i></td><td>5.86 x 10<sup>-04</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/618124" target="_blank">Peripheral neuropathy, autosomal recessive, with or without impaired intellectual development</a></td><td><i>MCM3AP</i></td><td>5.01 x 10<sup>-04</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/616078" target="_blank">Intellectual developmental disorder, autosomal dominant 29</a></td><td><i>SETBP1</i></td><td>4.59 x 10<sup>-04</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/267750" target="_blank">Knobloch syndrome, type 1</a></td><td><i>COL18A1</i></td><td>3.24 x 10<sup>-04</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/616948" target="_blank">Spinocerebellar ataxia, autosomal recessive 22</a></td><td><i>VWA3B</i></td><td>3.22 x 10<sup>-04</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/609135" target="_blank">Aplastic anemia</a></td><td><i>NBN</i></td><td>3.11 x 10<sup>-04</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/613065" target="_blank">Leukemia, acute lymphocytic, susceptibility to, 1</a></td><td><i>NBN</i></td><td>3.11 x 10<sup>-04</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/617435" target="_blank">Lopes-Maciel-Rodan syndrome</a></td><td><i>HTT</i></td><td>2.58 x 10<sup>-04</sup></td><td>6</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/272430" target="_blank">Crisponi/cold-induced sweating syndrome 1</a></td><td><i>CRLF1</i></td><td>2.48 x 10<sup>-04</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/145420" target="_blank">Teebi hypertelorism syndrome 1</a></td><td><i>SPECC1L</i></td><td>1.22 x 10<sup>-04</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/619191" target="_blank">Epilepsy, progressive myoclonic, 12</a></td><td><i>SLC7A6OS</i></td><td>8.25 x 10<sup>-05</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/152700" target="_blank">Systemic lupus erythematosus</a></td><td><i>DNASE1</i></td><td>8.13 x 10<sup>-05</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/615120" target="_blank">Myasthenic syndrome, congenital, 8</a></td><td><i>AGRN</i></td><td>7.95 x 10<sup>-05</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/600251" target="_blank">Facial clefting, oblique, 1</a></td><td><i>SPECC1L</i></td><td>7.93 x 10<sup>-05</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/109150" target="_blank">Machado-Joseph disease</a></td><td><i>ATXN3</i></td><td>2.39 x 10<sup>-05</sup></td><td>36</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/613080" target="_blank">46XY sex reversal 5</a></td><td><i>CBX2</i></td><td>1.64 x 10<sup>-05</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/618156" target="_blank">Squalene synthase deficiency</a></td><td><i>FDFT1</i></td><td>1.45 x 10<sup>-05</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/300510" target="_blank">Ovarian dysgenesis 2</a></td><td><i>BMP15</i></td><td>1.40 x 10<sup>-05</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/607634" target="_blank">Osteopetrosis, autosomal dominant 1</a></td><td><i>LRP5</i></td><td>1.14 x 10<sup>-05</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/620247" target="_blank">Cardiomyopathy, dilated, 1OO</a></td><td><i>VEZF1</i></td><td>4.86 x 10<sup>-06</sup></td><td>42</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/616913" target="_blank">Bleeding disorder, platelet-type, 20</a></td><td><i>SLFN14</i></td><td>4.14 x 10<sup>-06</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/617941" target="_blank">Shwachman-Diamond syndrome 2</a></td><td><i>EFL1</i></td><td>4.01 x 10<sup>-06</sup></td><td>2</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/143100" target="_blank">Huntington disease</a></td><td><i>HTT</i></td><td>3.64 x 10<sup>-06</sup></td><td>6</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/176410" target="_blank">Precocious puberty, male</a></td><td><i>LHCGR</i></td><td>3.47 x 10<sup>-06</sup></td><td>2</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/605407" target="_blank">Segawa syndrome, autosomal recessive</a></td><td><i>TH</i></td><td>3.11 x 10<sup>-06</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/617875" target="_blank">Polycystic liver disease 4 with or without kidney cysts</a></td><td><i>LRP5</i></td><td>2.77 x 10<sup>-06</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/133780" target="_blank">Exudative vitreoretinopathy 1</a></td><td><i>LRP5</i></td><td>2.77 x 10<sup>-06</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/601813" target="_blank">Exudative vitreoretinopathy 4</a></td><td><i>LRP5</i></td><td>2.77 x 10<sup>-06</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/144750" target="_blank">Hyperostosis, endosteal</a></td><td><i>LRP5</i></td><td>2.77 x 10<sup>-06</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/613587" target="_blank">Occult macular dystrophy</a></td><td><i>RP1L1</i></td><td>2.73 x 10<sup>-06</sup></td><td>16</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/618826" target="_blank">Retinitis pigmentosa 88</a></td><td><i>RP1L1</i></td><td>2.38 x 10<sup>-06</sup></td><td>16</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/256030" target="_blank">Nemaline myopathy 2, autosomal recessive</a></td><td><i>NEB</i></td><td>2.03 x 10<sup>-06</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/203800" target="_blank">Alstrom syndrome</a></td><td><i>ALMS1</i></td><td>1.65 x 10<sup>-06</sup></td><td>7</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/238320" target="_blank">Hypergonadotropic hypogonadism</a></td><td><i>LHCGR</i></td><td>1.52 x 10<sup>-06</sup></td><td>2</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/618880" target="_blank">Glaucoma, primary closed-angle</a></td><td><i>COL18A1</i></td><td>1.22 x 10<sup>-06</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/605594" target="_blank">Deafness, autosomal dominant 39, with dentinogenesis imperfecta 1</a></td><td><i>DSPP</i></td><td>1.22 x 10<sup>-06</sup></td><td>2</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/125500" target="_blank">Dentinogenesis imperfecta, shields type III</a></td><td><i>DSPP</i></td><td>1.22 x 10<sup>-06</sup></td><td>2</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/125420" target="_blank">Dentin dysplasia, type II</a></td><td><i>DSPP</i></td><td>1.22 x 10<sup>-06</sup></td><td>2</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/125490" target="_blank">Dentinogenesis imperfecta 1</a></td><td><i>DSPP</i></td><td>1.22 x 10<sup>-06</sup></td><td>2</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/614945" target="_blank">Deafness, autosomal recessive 18B</a></td><td><i>OTOG</i></td><td>9.89 x 10<sup>-07</sup></td><td>2</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/231680" target="_blank">Multiple acyl-CoA-dehydrogenase deficiency</a></td><td><i>ETFB</i></td><td>8.18 x 10<sup>-07</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/616433" target="_blank">Immunodeficiency 40</a></td><td><i>DOCK2</i></td><td>6.61 x 10<sup>-07</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/619334" target="_blank">Arthrogryposis multiplex congenita 6</a></td><td><i>NEB</i></td><td>6.58 x 10<sup>-07</sup></td><td>1</td></tr>
+            <tr><td class="disease"><a href="https://omim.org/615127" target="_blank">Epilepsy, familial adult myoclonic, 4</a></td><td><i>YEATS2</i></td><td>0.00 x 10<sup>+00</sup></td><td>1</td></tr>
+        </table>
+      </article>
+    </section>
+
+
+
+    <section>
+      <a name="explain"></a>
+      <article>
+        <h2>Definitions</h2>
+        <p>LIRICAL calculates likelihood ratios for each HPO feature and for the genotype (if applicable).
+        It displays detailed information for the top differential diagnoses (by default all diseases
+        with a posttest probability above 5.0% and at least 5; these thresholds can be
+        adjusted if desired). The following text provides brief explanations of the symbols used by
+        LIRICAL to explain how phenotype likelihood ratio scores were generaed.</p>
+        <ul class="no-list-style">
+          <li><b>E</b>: Exact match between query term and disease term.</li>
+          <li><b>Q&lt;D</b>: Query term is a child of disease term.</li>
+          <li><b>D&lt;Q</b>: Disease term is child of query term.</li>
+          <li><b>Q~D</b>: Query term and disease term are related but are separated by more than one edge.</li>
+          <li><b>NM</b>: No common ancestor match besides the root of the ontology.</li>
+          <li><b>X</b>: Query term is explicitly annotated as being not present in disease</li>
+          <li><b>XX</b>: Term excluded by query and explicitly annotated as being not present in disease</li>
+          <li><b>XA</b>: Term excluded by query and not explicitly annotated as being present in disease</li>
+          <li><b>XP</b>: Term excluded by query but is explictly annotated as being present in disease</li>
+          <li><b>U</b>: Flag for unusual background query (please report to developers)</li>
+        </ul>
+      </article>
+      </section>
+      <section>
+        <a name="about"></a>
+        <article>
+          <h2>About</h2>
+            <p>LIRICAL is a tool for exploring exome or genome sequencing data obtained for an individual with suspected rare genetic disease.
+      LIRICAL uses phenotypic features that describe the clinical manifestations observed in the individual and expressed
+      as <a href="http://www.human-phenotype-ontology.org">Human Phenotype Ontology</a> (HPO) terms as well as the
+      sequence variants found in the exome or genome file to derive a list of candidate diagnoses with estimated posterior
+      probabilities. LIRICAL is intended as a resource to aide diagnosticians and does not make a diagnosis itself. The
+      results of LIRICAL should not be construed as medical advice and should always be reviewed by medical professionals.</p>
+      <p>See LIRICAL's <a href="https://lirical.readthedocs.io/en/latest/" target="_blank">online documentation</a>.</p>
+
+          <h4><i>This LIRICAL run had the following configuration.<i></h4>
+          <ul>
+              <li>Human Phenotype Ontology version: http://purl.obolibrary.org/obo/hp.obo/hp/releases/2023-09-01/hp.obo.owl</li>
+              <li>Transcript database: RefSeq</li>
+                <li>Genes found to have at least one variant: 368</li>
+              <li>Path to Exomiser database: 2302_hg19</li>
+              <li>Global analysis mode: false</li>
+          </ul>
+          </p>
+        </article>
+      </section>
+      <span id="tooltip" display="none" style="position: absolute; display: none;"></span>
+  </main>
+  <footer>
+    <p>LIRICAL &copy; 2019</p>
+  </footer>
+
+  <script>
+  function showTooltip(evt, text) {
+    let tooltip = document.getElementById("tooltip");
+    tooltip.innerText = text;
+    tooltip.style.display = "block";
+    tooltip.style.left = evt.pageX + 10 + 'px';
+    tooltip.style.top = evt.pageY + 10 + 'px';
+  }
+
+  function hideTooltip() {
+    var tooltip = document.getElementById("tooltip");
+    tooltip.style.display = "none";
+  }
+
+function showTable() {
+    var table = document.getElementById("other-genes-table");
+    table.style.display = "block";
+    var showtablebtn = document.getElementById("show-other-genes-table");
+    showtablebtn.style.display = "none";
+
+    var hidetablebtn = document.getElementById("hide-other-genes-table");
+    hidetablebtn.style.display = "block";
+  }
+
+   function hideTable() {
+    var table = document.getElementById("other-genes-table");
+    table.style.display = "none";
+    var showtablebtn = document.getElementById("show-other-genes-table");
+    showtablebtn.style.display = "block";
+
+    var hidetablebtn = document.getElementById("hide-other-genes-table");
+    hidetablebtn.style.display = "none";
+  }
+
+  function showSymbolTable() {
+      var table = document.getElementById("symbol-table");
+      table.style.display = "block";
+      var showtablebtn = document.getElementById("show-symbol-table");
+      showtablebtn.style.display = "none";
+
+      var hidetablebtn = document.getElementById("hide-symbol-table");
+      hidetablebtn.style.display = "block";
+    }
+
+     function hideSymbolTable() {
+      var table = document.getElementById("symbol-table");
+      table.style.display = "none";
+      var showtablebtn = document.getElementById("show-symbol-table");
+      showtablebtn.style.display = "block";
+
+      var hidetablebtn = document.getElementById("hide-symbol-table");
+      hidetablebtn.style.display = "none";
+    }
+  </script>
+</body>
+</html>

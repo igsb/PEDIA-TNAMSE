@@ -1,0 +1,32 @@
+#! /usr/bin/env python3
+
+import json
+import requests
+
+
+url = 'https://amelie.stanford.edu/api/vcf_api/'
+
+
+def main():
+    response = requests.post(
+        url,
+        verify=False,
+        files={'vcfFile': open('../filtered_vcfs/DE69NGSUKBD109501_73204_filtered.vcf.gz', 'rb')},
+        data={'dominantAlfqCutoff': 0.1,
+              'alfqCutoff': 0.5, # min. 0.1; max. 3.0 (percent)
+              'filterByCount': False,
+              'hmctCutoff': 1,
+              'alctCutoff': 3,
+              'patientName': 'DE69NGSUKBD109501',
+              'patientSex': 'MALE', # or 'FEMALE', or None
+              'phenotypes': ','.join(["HP:0100543","HP:0000252","HP:0040196"])})
+
+    with open('../filtered_vcfs/DE69NGSUKBD109501_73204_amelie.json', 'w') as json_file:
+        json.dump(response.json(), json_file)
+
+
+
+if __name__ == "__main__":
+    main()
+
+

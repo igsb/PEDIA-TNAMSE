@@ -1,0 +1,33 @@
+
+id: analysis
+subject:
+  id: DEMRDUKB01139
+  sex: MALE
+phenotypicFeatures:
+  - type:
+      id: HP:0001252
+  - type:
+      id: HP:0000252
+  - type:
+      id: HP:0002360
+  - type:
+      id: HP:0100716
+  - type:
+      id: HP:0000708
+  - type:
+      id: HP:0001249
+htsFiles:
+  - uri: ../../../VCFs/DEMRDUKB01139_filtered_sort.vcf.gz
+    htsFormat: VCF
+    genomeAssembly: hg19
+metaData:
+  created: '2019-11-12T13:47:51.948Z'
+  createdBy: julesj
+  resources:
+    - id: hp
+      name: human phenotype ontology
+      url: http://purl.obolibrary.org/obo/hp.owl
+      version: hp/releases/2019-11-08
+      namespacePrefix: HP
+      iriPrefix: 'http://purl.obolibrary.org/obo/HP_'
+      phenopacketSchemaVersion: 1.0

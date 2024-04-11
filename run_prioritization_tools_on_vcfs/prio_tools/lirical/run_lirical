@@ -1,0 +1,2 @@
+java -jar LIRICAL.jar phenopacket -p lirical.json -e 2302_hg19 --tsv
+

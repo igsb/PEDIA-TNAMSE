@@ -1,0 +1,3 @@
+
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" "https://phen2gene.wglab.org/api?HPO_list=HP:0100543,HP:0000252,HP:0040196" > ../filtered_vcfs/DE69NGSUKBD109501.json
+

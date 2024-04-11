@@ -1,0 +1,45 @@
+{"subject": {
+            "id": "Case"
+        },
+        "phenotypicFeatures": [{
+        "type": {
+                "id": "HP:0001252"
+            },
+        "type": {
+                "id": "HP:0000252"
+            },
+        "type": {
+                "id": "HP:0002360"
+            },
+        "type": {
+                "id": "HP:0100716"
+            },
+        "type": {
+                "id": "HP:0000708"
+            },
+        "type": {
+                "id": "HP:0001249"
+            },
+    }]
+    "htsFiles":
+        [{
+            "uri": "../../VCFs/DEMRDUKB01139_filtered_sort.vcf.gz",
+            "description": "test",
+            "htsFormat": "VCF",
+            "genomeAssembly": "GRCh19",
+            "individualToSampleIdentifiers": {
+                "patient1": "NA12345"
+            }
+        }],
+        "metaData": {
+            "createdBy": "Peter R.",
+            "resources": [{
+                "id": "hp",
+                "name": "human phenotype ontology",
+                "namespacePrefix": "HP",
+                "url": "http://purl.obolibrary.org/obo/hp.owl",
+                "version": "2018-03-08",
+                "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+            }]
+        }
+    }

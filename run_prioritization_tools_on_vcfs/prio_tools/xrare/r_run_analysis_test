@@ -1,0 +1,11 @@
+library(xrare)
+
+vcffile <- "/data/filtered_vcfs/DE69NGSUKBD109501_73204_filtered.vcf.gz"
+dt <- xrare(vcffile=vcffile, hpoid="HP:0100543,HP:0000252,HP:0040196")
+
+dt = setorder(dt, -xrare_score)
+dt = dt[, .(CHROM,POS,REF,ALT,xrare_score,symbol,pathoACMG,tagsACMG)]
+
+csvfile <- sub("\\.vcf\\.gz$", "_xrare.csv", vcffile)
+write.csv(dt, csvfile, row.names = FALSE)
+

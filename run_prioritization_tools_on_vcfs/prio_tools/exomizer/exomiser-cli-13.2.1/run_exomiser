@@ -1,0 +1,3 @@
+#! /bin/bash
+
+java -jar exomiser-cli-13.2.1.jar --sample DE69NGSUKBD109501.yml --output-directory results   #  --vcf ../../filtered_vcfs/DE69NGSUKBD109501_73204_filtered.vcf.gz  --assembly hg19

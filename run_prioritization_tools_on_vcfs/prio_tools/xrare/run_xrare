@@ -1,0 +1,3 @@
+#! /bin/bash
+
+docker run -v $(pwd)/../../:/data  --rm xrare37-pub:2021  bash -c 'Rscript /data/prio_tools/xrare/r_run_analysis'
