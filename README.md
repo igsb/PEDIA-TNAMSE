@@ -37,11 +37,21 @@ VarFish requires integration with the PEDIA middleware to access GestaltMatcher 
 Refer to the documentation provided in the PEDIA middleware repository for instructions on connecting VarFish with the middleware 
 (https://github.com/igsb/pedia-middleware).
 
+Once you launch Varfish and import a VCF, you can perform GestaltMatcher and PEDIA shown in the screenshot below.
+![PEDIA](https://github.com/igsb/PEDIA-TNAMSE/blob/main/image/GM-Varifish.png)
+
 For detailed step-by-step instructions on analyzing a patient using VarFish and its integration with the PEDIA middleware, refer to the results section of the article associated with this study 
 (https://www.mdpi.com/2073-4425/15/3/370).
 
 ## Results
+After performing the PEDIA analysis, the resulting variants are displayed in the table below.
+These variants can be further sorted by the PEDIA score in descending order.
+In this patient, the disease-causing variant is identified within the MED13L gene, which holds the top-ranking position based on the PEDIA score.
+![results](https://github.com/igsb/PEDIA-TNAMSE/blob/main/image/result_table.png)
 
+After performing the PEDIA analysis, you have the option to export the results in Excel sheet format. Additionally, you can visualize the accuracy of your cohort by plotting figures using the provided Jupyter Notebook (pedia_revision.ipynb).
+
+To protect the patient data, please contact us for accessing the data to reproduce the figures shown in results_figure folder. 
 
 ## Benchmark with different feature analysis approaches
 In the Translate NAMSE (TNAMSE) study, various alternative feature and exome analysis approaches were explored in addition to the original CADA and CADD scores. These alternative approaches include LIRICAL, AMELIE, Exomizer, and Xrare.
