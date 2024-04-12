@@ -1,3 +1,5 @@
+# PEDIA analysis in Translate NAMSE study
+
 This repository hosts the code utilized in the PEDIA analysis within the Translate NAMSE study titled 
 "Next-generation phenotyping integrated in a national framework for patients with ultra-rare disorders improves genetic diagnostics and yields new molecular findings".
 You can find the preprint of the study here (https://www.medrxiv.org/content/10.1101/2023.04.19.23288824v1).
@@ -38,7 +40,9 @@ For detailed step-by-step instructions on analyzing a patient using VarFish and 
 
 ## Benchmark with different feature analysis approaches
 In the Translate NAMSE (TNAMSE) study, various alternative feature and exome analysis approaches were explored in addition to the original CADA and CADD scores. These alternative approaches include LIRICAL, AMELIE, Exomizer, and Xrare.
+
 Detailed scripts for running these approaches can be found in the 'run_prioritization_tools_on_vcfs' folder of this repository.
+
 Since these tools are external and may require significant resources for installation, we recommend referring to their original documentation for detailed instructions on installation and usage. Please consult the documentation provided by the respective developers or organizations for comprehensive guidance on installing and utilizing LIRICAL, AMELIE, Exomizer, and Xrare.
 
 ## References
