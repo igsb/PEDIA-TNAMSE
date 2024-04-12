@@ -1,0 +1,3 @@
+[submodule "pedia-middleware"]
+	path = pedia-middleware
+	url = https://github.com/igsb/pedia-middleware
