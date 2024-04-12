@@ -29,6 +29,8 @@ The input of the patient are:
 * Clinical features in HPO terms
 * Exome variants in VCF
 
+![VarFish](https://github.com/igsb/PEDIA-TNAMSE/blob/main/image/Enhancing_applicability_of_PEDIA.svg)
+
 Please install the VarFish to enable the variant analysis.
 
 VarFish requires integration with the PEDIA middleware to access GestaltMatcher and PEDIA services.
