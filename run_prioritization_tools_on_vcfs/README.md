@@ -46,7 +46,7 @@ In order to run the ranking prioritization benchmark you need:
 
 - all_cases forder is optional, but if there is a case matching, the list of variant in the xlsx will be used
 
-Make sure docker is running
+Make sure docker is running, and your username can use docker without sudo or root permission
 
 To run:
 
