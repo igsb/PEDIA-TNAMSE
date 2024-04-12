@@ -40,6 +40,9 @@ Refer to the documentation provided in the PEDIA middleware repository for instr
 For detailed step-by-step instructions on analyzing a patient using VarFish and its integration with the PEDIA middleware, refer to the results section of the article associated with this study 
 (https://www.mdpi.com/2073-4425/15/3/370).
 
+## Results
+
+
 ## Benchmark with different feature analysis approaches
 In the Translate NAMSE (TNAMSE) study, various alternative feature and exome analysis approaches were explored in addition to the original CADA and CADD scores. These alternative approaches include LIRICAL, AMELIE, Exomizer, and Xrare.
 
