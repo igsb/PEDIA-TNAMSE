@@ -47,7 +47,7 @@ exomiser.phenotype.data-version=2302
 
 In order to run the ranking prioritization benchmark you need:
 
-- all_cases.csv input file. with case, HPO termr, and gene causing disease (Note the first number is unused).
+- all_cases.csv input file. The columns are case, HPO term, and gene causing disease (Note the first number is unused).
 
 - all_cases forder is optional, but if there is a case matching, the list of variant in the xlsx will be used
 
