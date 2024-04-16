@@ -1,8 +1,8 @@
-# PEDIA analysis in Translate NAMSE study
+# PEDIA analysis in the TRANSLATE-NAMSE study
 
-This repository hosts the code utilized in the PEDIA analysis within the Translate NAMSE study titled 
+This repository hosts the code utilized in the PEDIA analysis within the TRANSLATE-NAMSE study titled 
 "Next-generation phenotyping integrated in a national framework for patients with ultra-rare disorders improves genetic diagnostics and yields new molecular findings".
-You can find the preprint of the study here (https://www.medrxiv.org/content/10.1101/2023.04.19.23288824v1).
+You can find the preprint of the study here (https://www.medrxiv.org/content/10.1101/2023.04.19.23288824v1). For other analyses, see also the repository https://github.com/Ax-Sch/TNAMSE_geno_pheno .
 
 Our analysis leveraged the open-source versions of PEDIA and GestaltMatcher as outlined in the paper titled 
 "Enhancing Variant Prioritization in VarFish through On-Premise Computational Facial Analysis" available here
@@ -14,7 +14,7 @@ Please note that in order to ensure patient data protection, access to the train
 For inquiries regarding data access, kindly reach out to Dr. Tzung-Chien Hsieh at thsieh@uni-bonn.de.
 
 ## Step-by-step analysis
-PEDIA integrates three distinct scores—GestaltMatcher, CADA, and CADD—into a unified PEDIA score, enhancing the prioritization of genes and variants.
+PEDIA integrates three distinct scores — GestaltMatcher, CADA, and CADD—into a unified PEDIA score, enhancing the prioritization of genes and variants.
 Below are reference of each approach:
 * GestaltMatcher: Facial image analysis (https://www.nature.com/articles/s41588-021-01010-x)
 * CADA: clinical feature analysis (https://academic.oup.com/nargab/article/3/3/lqab078/6363753)
@@ -31,7 +31,7 @@ The input of the patient are:
 
 ![VarFish](https://github.com/igsb/PEDIA-TNAMSE/blob/main/image/Enhancing_applicability_of_PEDIA.svg)
 
-Please install the VarFish to enable the variant analysis.
+Please install VarFish to enable the variant analysis.
 
 VarFish requires integration with the PEDIA middleware to access GestaltMatcher and PEDIA services.
 Refer to the documentation provided in the PEDIA middleware repository for instructions on connecting VarFish with the middleware 
@@ -54,7 +54,7 @@ After performing the PEDIA analysis, you have the option to export the results i
 To protect the patient data, please contact us for accessing the data to reproduce the figures shown in results_figure folder. 
 
 ## Benchmark with different feature analysis approaches
-In the Translate NAMSE (TNAMSE) study, various alternative feature and exome analysis approaches were explored in addition to the original CADA and CADD scores. These alternative approaches include LIRICAL, AMELIE, Exomizer, and Xrare.
+In the TRANSLATE-NAMSE (TNAMSE) study, various alternative feature and exome analysis approaches were explored in addition to the original CADA and CADD scores. These alternative approaches include LIRICAL, AMELIE, Exomizer, and Xrare.
 
 Detailed scripts for running these approaches can be found in the 'run_prioritization_tools_on_vcfs' folder of this repository.
 
